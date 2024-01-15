@@ -126,7 +126,8 @@ Download.ImageCollection.toDrive = function(collection, folder, options) {
       region: null,
       name: '{id}',
       crs: null,
-      dateFormat: 'yyyy-MM-dd',
+      //dateFormat: 'yyyy-MM-dd',
+      dateFormat: 'YYYY-MM-dd_HH:mm:ss',
       async: false
     }
     var opt = tools.get_options(defaults, options)
